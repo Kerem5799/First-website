@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="surname">Soyad</label>
+        <input type="text" id="surname" />
+      </div>
+      <div>
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <label for="pwd">Password:</label><br />
+        <input type="password" id="pwd" name="pwd" />
+      </div>
+      <div>
+        <label for="intro">Kendini Anlat</label>
+        <textarea id="intro"></textarea>
+      </div>
+      <div>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Submit" />
+        <input type="reset" />
+      </div>
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+      <div>
+        <p>en sevdiğin programlama dili</p>
+        <input type="radio" id="html" name="programlama" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="CSS" name="programlama" />
+        <label for="CSS">CSS</label>
+
+        <input type="radio" id="JAVA" name="programlama" />
+        <label for="JAVA">JAVA</label>
+      </div>
+      <div>
+        <p>en sevdiğin programlama dili</p>
+        <input type="checkbox" id="html2" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="CSS2" />
+        <label for="CSS">CSS</label>
+
+        <input type="radio" id="JAVA2" />
+        <label for="JAVA2">JAVA</label>
+      </div>
+      <div>
+        <label for="cities">Şehir</label>
+        <select id="cities">
+          <option value="41">Kocaeli</option>
+          <option value="34">İstanbul</option>
+          <option value="57">Sinop</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <button type="submit" class="btn btn-outline-primary">Kaydet</button>
+    </form>
+  </body>
+</html>
